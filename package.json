@@ -1,0 +1,21 @@
+{
+  "name": "frontend-set-a",
+  "version": "0.0.1",
+  "description": "Simple code to use to test frontend skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copyBootstrapCss": "copyfiles -u 4 ./node_modules/bootstrap/dist/css/*.css public/css",
+    "copyBootstrapJs": "copyfiles -u 4 ./node_modules/bootstrap/dist/js/bootstrap.js ./public/js",
+    "copyBootstrapJsExtra": "copyfiles -u 3 ./node_modules/bootstra/js/*.js ./public/js",
+    "copyJquery": "copyfiles -u 3 ./node_modules/jquery/dist/jquery.js ./public/js"
+  },
+  "author": "Bigornia, Reginald",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "copyfiles": "^1.2.0",
+    "http-server": "^0.10.0",
+    "jquery": "^3.2.1"
+  }
+}
