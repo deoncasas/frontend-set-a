@@ -4,6 +4,7 @@
   "description": "Simple code to use to test frontend skills",
   "main": "index.js",
   "scripts": {
+    "start": "./node_modules/http-server/bin/http-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "copyBootstrapCss": "copyfiles -u 4 ./node_modules/bootstrap/dist/css/*.css public/css",
     "copyBootstrapJs": "copyfiles -u 4 ./node_modules/bootstrap/dist/js/bootstrap.js ./public/js",
