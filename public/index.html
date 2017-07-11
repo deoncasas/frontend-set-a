@@ -1,12 +1,15 @@
 <html>
   <head>
     <title>Set A</title>
-    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
   </head>
-  <body>
-    <nav>
-      <span>Make this a proper header and remove this span</span>
-      <div>
+
+  <body class="container">
+
+    <nav class="page-header">
+      
+      <div class="container">
         <div>
           <ul>
             <li><a href="">Home</a></li>
@@ -16,29 +19,43 @@
         </div>
       </div>
     </nav>
+
     <h1>Home</h1>
-    <section>
-      <h4>Post 1</h4>
-      <p>This is the first post. Put me in a well</p>
-    </section>
-    <section>
-      <h4>Post 3</h4>
-      <p>This is the third post. I also want to be in a well</p>
-    </section>
-    <section>
-      <h4>Post 2</h4>
-      <p>This is the second post. I want to be in a panel</p>
-    </section>
-    <section>
-      I should be a sidebar
-      <ul>
+      
+      <section class="container">
+        <h4>Post 1</h4>
+        <p>This is the first post. Put me in a well</p>
+      </section>
+      
+      <section class="container">
+        <h4>Post 2</h4>
+        <p>This is the second post. I want to be in a panel</p>
+      </section>
+      
+      <section class="container">
+
+        <h4>Post 3</h4>
+        <p>This is the third post. I also want to be in a well</p>
+    
+      </section>
+
+      <section class="navbar navbar-default sidebar" role="navigation">
+        I should be a sidebar
+        <ul>
           <li><a href="">Home</a></li>
           <li><a href="http://localhost:8080/gallery.html">Gallery</a></li>
-      </ul>
-    </section>
-    <footer>
+        </ul>
+      </section>
+    
+    <footer class="footer">
       This is a footer. Position me properly!
     </footer>
-    <script type="text/javascript" src=""></script>
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/carousel.js"></script>
+    <script type="text/javascript" src="js/dropdown.js"></script>
+    <script type="text/javascript" src="js/tab.js"></script>
+    <script type="text/javascript" src="js/transition.js"></script>
   </body>
 </html>
