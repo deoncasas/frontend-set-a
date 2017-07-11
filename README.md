@@ -7,13 +7,13 @@
    * Starts the server on port 8080
 
 ### Getting bootstrap and jquery
-* npm copyJquery
+* npm run copyJquery
   * This copies jquery.js to the public/js dir
-* npm copyBootstrapCss
+* npm run copyBootstrapCss
   * This copies bootstrap.css to the public/css dir
-* npm copyBootstrapJs
+* npm run copyBootstrapJs
   * This copies bootstrap.js to the public/js dir
-* npm copyBootstrapJsExtra
+* npm run copyBootstrapJsExtra
   * this copies the other bootstra js files to the public/js dir
 
 
